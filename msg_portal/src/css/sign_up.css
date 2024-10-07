@@ -1,0 +1,518 @@
+.container-S {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 580px;
+  height:610px;
+  padding: 40px;
+  align-items: center;
+  border-radius: 14px;
+  position: relative;
+  background-color: #ffffff;
+  color: #343232;
+  border: 1px solid #e6e3e3;
+  font-family: system-ui;
+  box-shadow: 1px 1px 6px rgb(229, 224, 224), -1px -1px 6px rgb(234, 230, 230);
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  color: #5d5f5b;
+  margin-right: 450px;
+}
+
+.title::before {
+  width: 18px;
+  height: 18px;
+}
+
+.title::after {
+  width: 18px;
+  height: 18px;
+  animation: pulse 1s linear infinite;
+}
+
+.title::before,
+.title::after {
+  position: absolute;
+  /* margin-right: 200px; */
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  left: 0px;
+  background-color: #0db7e1;
+}
+
+.error{
+  font-family: system-ui !important;
+  letter-spacing: 1px;
+  font-size: 13px !important;
+  text-align: center ;
+  font-weight: 600!important;
+  color: #ef4c4cf5 !important;
+}
+.signin ,.message{
+  font-size: 12.9px;
+  text-align: center;
+  font-weight: 600;
+  color: #04566b80;
+  
+}
+
+.signin {
+  text-align: center;
+}
+
+.signin a:hover {
+  text-decoration: underline royalblue;
+}
+
+.signin a ,label a{
+  font-family: system-ui;
+  font-weight: 500;
+  font-size: 13.3px;
+  color: #00bfff;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content:space-around;
+  gap: 10px;
+  
+}
+
+.flex .input {
+  width: 250px !important;
+ 
+}
+
+.form label {
+  position: relative;
+}
+
+.form label .input {
+  background-color: #f5f5fa;
+  font-family: system-ui;
+  /* font-size: 19.9px; */
+  font-weight: 500;
+  width: 564px;
+  font-size: 0.8em;
+  margin: 19px;
+  padding: 23px 5px 5px 10px;
+  outline: 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+}
+
+
+
+.form label .input+span {
+  font-family: system-ui;
+  color: rgb(94, 94, 89);
+  /* font-size: 19.9px; */
+  font-weight: 500;
+  position: absolute;
+  left: 9px;
+  bottom: 2px;
+  margin: 17.6px;
+  font-size: .9em;
+  cursor: text;
+  transition: 0.3s ease;
+}
+
+.form label .input:placeholder-shown+span {
+  top: 12.5px;
+  font-size: 0.9em;
+}
+
+
+.form label .input:focus+span,
+.form label .input:valid+span {
+  color: #969f9e;
+  top: 1.5px;
+  letter-spacing: 1px;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.closed,
+.open {
+  color: rgb(150, 143, 143);
+  height: 21px;
+  width: 21px;
+  /* margin-bottom: 8px; */
+  cursor: pointer;
+  margin-left: 100px;
+  position: absolute;
+}
+
+
+.form .Main_btn {
+
+  padding: 1px;
+  margin: 8px;
+  height: 39px;
+  width:10rem;
+  font-size: .8rem;
+  letter-spacing: 1.3px;
+  transition: all 500ms;
+  /* margin-left: 220px; */
+}
+
+
+
+.form .Main_btn:hover {
+  letter-spacing: 9px;
+}
+
+.Main_btn .Licons {
+  color: rgb(255, 255, 255);
+}
+
+
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(2.3);
+    opacity: 0;
+  }
+}
+
+
+
+/* //varification code logics---------------------------- */
+
+.Otp {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 250px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+
+
+.title-A {
+  font-size: 20px !important;
+  font-weight: bold;
+  color: rgb(125, 116, 116) !important;
+}
+
+.Otp .message {
+  color:#4b4343;
+  font-size: 12px;
+  margin-top: 4px;
+  text-align: center
+}
+
+.Otp .inputs {
+  margin-top: 10px
+}
+
+.Otp .inputs input {
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  border: none;
+  border-bottom: 1.5px solid #d2d2d2;
+  margin: 0 10px;
+}
+
+.Otp .inputs input:focus {
+  border-bottom: 2px solid rgb(2, 188, 166);
+  outline: none;
+}
+
+.Otp .Main_btn {
+  margin-top: 24px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  align-self: end;
+}
+
+.Main_btn .Licons {
+  height: 19px;
+}
+
+.Otp .Main_btn:hover {
+  box-shadow: 1px 1px 2px rgb(109, 106, 106), -1px -1px 2px rgb(102, 100, 100);
+}
+
+
+@media screen and (max-width:1520px) {
+
+
+  .form {
+    
+    gap: 8px;
+    width: 485px;
+    height:500px;
+    padding: 10px 40px ;
+   
+  }
+  
+  .title {
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 30px;
+    color: #5d5f5b;
+    margin-right: 400px;
+  }
+  
+  .title::before {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .title::after {
+    width: 18px;
+    height: 18px;
+    animation: pulse 1s linear infinite;
+  }
+  
+  .title::before,
+  .title::after {
+    position: absolute;
+    /* margin-right: 200px; */
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    left: 0px;
+    background-color: #0db7e1;
+  }
+  
+  .error{
+    font-family: system-ui !important;
+    letter-spacing: 1px;
+    font-size: 13px !important;
+    text-align: center ;
+    font-weight: 600!important;
+    color: #ef4c4cf5 !important;
+  }
+  .signin ,.message{
+    font-size: 11.5px;
+    text-align: center;
+    margin:3px;
+    font-weight: 600;
+    color: #04566b80;
+    
+  }
+  
+  .signin {
+    text-align: center;
+  }
+  
+  .signin a:hover {
+    text-decoration: underline royalblue;
+  }
+  
+  .signin a ,label a{
+    font-family: system-ui;
+    font-weight: 500;
+    font-size: 13.1px;
+    color: #00bfff;
+  }
+  
+  .flex {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content:space-around;
+    gap: 1px;
+    
+  }
+  
+  .flex .input {
+    width: 220px !important;
+   
+  }
+  
+  .form label {
+    position: relative;
+  }
+  
+  .form label .input {
+    background-color: #f5f5fa;
+    font-family: system-ui;
+    /* font-size: 19.9px; */
+    font-weight: 500;
+    width: 564px;
+    font-size: 0.75em;
+    margin: 19px;
+    padding: 23px 5px 5px 10px;
+    outline: 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+  }
+  
+  
+  
+  .form label .input+span {
+    font-family: system-ui;
+    color: rgb(94, 94, 89);
+    /* font-size: 19.9px; */
+    font-weight: 500;
+    position: absolute;
+    left: 9px;
+    bottom: 2px;
+    margin: 17px;
+    font-size: .9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .form label .input:placeholder-shown+span {
+    top: 12.1px;
+    font-size: 0.9em;
+  }
+  
+  
+  .form label .input:focus+span,
+  .form label .input:valid+span {
+    color: #969f9e;
+    top: 1.5px;
+    letter-spacing: 1px;
+    font-size: 0.65em;
+    font-weight: 600;
+  }
+  
+  .closed,
+  .open {
+    color: rgb(150, 143, 143);
+    height: 21px;
+    width: 18px;
+    /* margin-bottom: 8px; */
+    cursor: pointer;
+    margin-left: 80px;
+    position: absolute;
+  }
+  
+  
+  .form .Main_btn {
+  
+    padding: 1px;
+    margin: 0px;
+    height: 37px;
+    width:8rem;
+    font-size: .8rem;
+    letter-spacing: 1.3px;
+    transition: all 500ms;
+    /* margin-left: 220px; */
+  }
+  
+  
+  
+  .form .Main_btn:hover {
+    letter-spacing: 9px;
+  }
+  
+  .Main_btn .Licons {
+    color: rgb(255, 255, 255);
+  }
+  
+  
+  @keyframes pulse {
+    from {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(2.3);
+      opacity: 0;
+    }
+  }
+  
+  
+  
+  /* //varification code logics---------------------------- */
+  
+  .Otp {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+  }
+  
+  
+  
+  .title-A {
+    font-size: 20px !important;
+    font-weight: bold;
+    color: rgb(125, 116, 116) !important;
+  }
+  
+  .Otp .message {
+    color:#4b4343;
+    font-size: 12px;
+    margin-top: 4px;
+    text-align: center
+  }
+  
+  .Otp .inputs {
+    margin-top: 10px
+  }
+  
+  .Otp .inputs input {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border: none;
+    border-bottom: 1.5px solid #d2d2d2;
+    margin: 0 10px;
+  }
+  
+  .Otp .inputs input:focus {
+    border-bottom: 2px solid rgb(2, 188, 166);
+    outline: none;
+  }
+  
+  .Otp .Main_btn {
+    margin-top: 24px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    align-self: end;
+  }
+  
+  .Main_btn .Licons {
+    height: 19px;
+  }
+  
+  .Otp .Main_btn:hover {
+    box-shadow: 1px 1px 2px rgb(109, 106, 106), -1px -1px 2px rgb(102, 100, 100);
+  }
+  
+}

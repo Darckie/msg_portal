@@ -1,0 +1,269 @@
+#agcontainer {
+    margin-top: 20px;
+    height: 80vh;
+    display: flex;
+    /* justify-content: center; */
+    /* background-color: red; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#agcontainer .form {
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 280px;
+    width: 650px;
+    box-shadow: none;
+    padding: 14px;
+    flex-wrap: wrap;
+    margin-right: 140px;
+    margin-top: 100px;
+    gap: 0px;
+}
+
+#agcontainer .form .flex {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    height: 100px;
+
+}
+
+#agcontainer .btnContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 2px;
+    margin-right: 140px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: .1px .1px 4px rgb(227, 224, 224);
+
+
+
+}
+
+#agcontainer .btnContainer .btnH {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    /* margin: 1px; */
+    padding: 4px;
+    font-family: 'system-ui';
+    font-size: 13.9px;
+    /* font-weight: 700; */
+    background-color: #f5f5fa;
+    color: rgb(82, 78, 78);
+    border: 1px solid rgb(255, 255, 255);
+
+
+
+}
+
+#agcontainer .Main_btn {
+    float: right;
+    margin-right: 36px;
+    width: 90px;
+    height: 33px;
+}
+
+#agcontainer .Main_btn:hover {
+    letter-spacing: unset;
+}
+
+#agcontainer .btnContainer .btnH:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+#agcontainer .Licons {
+    height: 23px;
+    width: 18px;
+    color: rgb(99, 216, 162);
+}
+
+#agcontainer .btnH:hover+.Licons {
+    color: rgb(0, 38, 128);
+}
+
+.agbtnactive {
+    background-color: rgb(255, 255, 255);
+}
+
+#agcontainer #selectInput {
+    width: 270px !important;
+    margin-left: 20px;
+}
+
+.Agentboxes {
+
+    margin-right: 100px;
+    /* margin-left: 150px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 50px;
+    overflow-y: auto;
+    height: 63vh;
+    width: 65vw;
+
+    overflow-x: hidden;
+    /* padding: 50px; */
+    justify-content: center;
+
+}
+
+.containerBox {
+
+    margin-top: 50px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerBox .card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    width: 15em;
+    max-width: 98%;
+    padding: 2em 0;
+    background: #FFF;
+    box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
+    transition: all 0.35s ease;
+}
+
+.containerBox .card::before,
+.containerBox .card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: orange;
+    height: 4px;
+}
+
+.containerBox .card::before {
+    width: 0;
+    opacity: 0;
+    transition: opacity 0 ease, width 0 ease;
+    transition-delay: 0.5s;
+}
+
+.containerBox .card::after {
+    width: 100%;
+    background: white;
+    transition: width 0.5s ease;
+}
+
+.containerBox .card .content {
+    width: 10em;
+    height: 130px;
+    opacity: 0;
+    max-width: 80%;
+}
+
+.containerBox .card .logo {
+    margin: 0 0 0em;
+    width: 10.625em;
+    transition: all 0.35s ease;
+}
+
+
+
+.containerBox .card .hover_content {
+    overflow: hidden;
+    max-height: 0;
+    transform: translateY(1em);
+    transition: all 0.55s ease;
+}
+
+.containerBox .card .hover_content p {
+    margin: 0em 0 0;
+    color: #f8f6f6;
+    line-height: 1.5em;
+}
+
+.containerBox .card:hover {
+    width: 24em;
+    box-shadow: 0 10px 20px 0 rgba(32, 32, 36, 0.12);
+}
+
+.containerBox .card:hover::before {
+    width: 100%;
+    opacity: 1;
+    transition: opacity 0.5s ease, width 0.5s ease;
+    transition-delay: 0;
+}
+
+.containerBox .card:hover::after {
+    width: 0;
+    opacity: 0;
+    transition: width 0 ease;
+}
+
+.containerBox .card:hover .logo {
+    margin-bottom: 0.1em;
+}
+
+.containerBox .card:hover .hover_content {
+    max-height: 10em;
+    transform: none;
+
+}
+
+.containerBox .card:hover {
+
+    .content {
+        opacity: 1;
+    }
+
+    .indexag {
+        opacity: .001;
+    }
+}
+
+
+.indexag {
+    font-family: 'system-ui';
+    color: rgba(49, 50, 52, 0.883);
+    font-size: 16.2px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.ag-h3 {
+    display: block;
+    margin: auto;
+    font-family: 'system-ui';
+    color: rgb(89, 85, 85);
+    font-size: 17px;
+    /* text-align: center; */
+    padding: 9px 19px;
+    margin: 9px;
+    width: 400px;
+    border-bottom: 1px solid rgb(187, 182, 182);
+}
+
+.logoAg {
+    font-size: 20px;
+}
+
+.agentnum1 {
+    font-family: 'system-ui';
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 17px;
+    
+}
+
+.agentnum2 {
+    padding-top: 12px;
+    font-size: 15px;
+
+}
