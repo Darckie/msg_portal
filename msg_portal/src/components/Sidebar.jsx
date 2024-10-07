@@ -22,7 +22,7 @@ import {
 
 function Sidebar({ isExpanded }) {
   const { userConfig, updateConfig } = useConfig();
-  const XState = userConfig.tgglbtn;
+  const XState = true;
 
   const navigate = useNavigate();
 

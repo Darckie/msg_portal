@@ -47,12 +47,12 @@ function App() {
     }
   );
   useEffect(() => {
-
+  
     setConfig(LoginData);
   }, [])
 
 
-  const { userConfig, setConfig } = useConfig();
+  const { userConfig, setConfig ,updateConfig} = useConfig();
 
   const navigate = useNavigate();
 
