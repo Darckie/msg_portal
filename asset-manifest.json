@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/msg_portal/static/css/main.2fd0da0c.css",
+    "main.js": "/msg_portal/static/js/main.6deaf898.js",
+    "static/media/blackbag.jpg": "/msg_portal/static/media/blackbag.c3c242e5ece1544d5fc2.jpg",
+    "static/media/f_q.jpg": "/msg_portal/static/media/f_q.8c82f045c1577ee885b6.jpg",
+    "static/media/logoback1.jpg": "/msg_portal/static/media/logoback1.3d7f7eddbf192630a940.jpg",
+    "static/media/test_Logo.png": "/msg_portal/static/media/test_Logo.532bdc402fc062314d66.png",
+    "static/media/sampMM2.png": "/msg_portal/static/media/sampMM2.ae017c12e42238c2a663.png",
+    "static/media/bagWhat2.jpeg": "/msg_portal/static/media/bagWhat2.d6e4af91e1d7accc48c0.jpeg",
+    "static/media/userX.jpg": "/msg_portal/static/media/userX.34a6026cf274d953aeab.jpg",
+    "static/media/logo-small.jpg": "/msg_portal/static/media/logo-small.b0da6480f3b13a44a0ab.jpg",
+    "static/media/agent.png": "/msg_portal/static/media/agent.14d37b6be7a81c6931c3.png",
+    "static/media/metaphor.svg": "/msg_portal/static/media/metaphor.61af266999d44207da1bdbb8e79dbf2c.svg",
+    "static/media/acc_dp.svg": "/msg_portal/static/media/acc_dp.bd52e227bfb874cd029e956ad63d75e2.svg",
+    "static/media/logottt.svg": "/msg_portal/static/media/logottt.804d90eb46387b25ab3d61258218e8e1.svg",
+    "static/media/white2.avif": "/msg_portal/static/media/white2.73a4853bab74d6b94871.avif",
+    "index.html": "/msg_portal/index.html",
+    "main.2fd0da0c.css.map": "/msg_portal/static/css/main.2fd0da0c.css.map",
+    "main.6deaf898.js.map": "/msg_portal/static/js/main.6deaf898.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fd0da0c.css",
+    "static/js/main.6deaf898.js"
+  ]
+}
