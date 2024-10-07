@@ -16,9 +16,12 @@ To get started with the Msg Portal, follow these steps:
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/YourUsername/msg_portal.git
-2 - **Navigate to the Project Directory**
-cd msg_portal
-3- **Install Dependencies**
-npm install
-4- **Run the Application**
-npm start
+2. **Navigate to the Project Directory**
+   ```bash
+    cd msg_portal
+3. **Install Dependencies**
+     ```bash
+      npm install
+4. **Run the Application**
+     ```bash
+     npm start
