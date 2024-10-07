@@ -47,7 +47,16 @@ function App() {
     }
   );
   useEffect(() => {
-  
+    
+    updateConfig(prevConfig => {
+      const newConfig = { ...prevConfig };
+      if ('tgglbtn' in newConfig) delete newConfig.tgglbtn;
+      return {
+        ...newConfig,
+        tgglbtn: true,
+      };
+
+    });
     setConfig(LoginData);
   }, [])
 
