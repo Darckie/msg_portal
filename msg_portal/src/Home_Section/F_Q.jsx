@@ -31,12 +31,12 @@ export default function F_Q() {
           <li className='atags'>
             <Link to='/' >
               Home
-              <hr style={{ color: '#72cef3', marginTop: '2px', width: '50%', marginLeft: '1px' }} className={!isActiveBar("/webui/") ? 'hrX' : ''} />
+              <hr style={{ color: '#72cef3', marginTop: '2px', width: '50%', marginLeft: '1px' }} className={!isActiveBar("/msg_portal/") ? 'hrX' : ''} />
             </Link>
           </li>
-          <li className='atags'><Link to='/Features'>Features  <hr style={{ color: '#72cef3', marginTop: '2px' }} className={!isActiveBar('/webui/Features') ? 'hrX' : ''} /></Link></li>
-          <li className='atags'> <Link to='/Pricing'> Pricing   <hr style={{ color: '#72cef3', marginTop: '2px' }} className={!isActiveBar('/webui/Pricing') ? 'hrX' : ''} /></Link></li>
-          <li className='atags'> <Link to='/F_Q'> FAQs   <hr style={{ color: '#72cef3', marginTop: '2px' }} className={!isActiveBar('/webui/F&Q') ? 'hrX' : ''} /></Link></li>
+          <li className='atags'><Link to='/Features'>Features  <hr style={{ color: '#72cef3', marginTop: '2px' }} className={!isActiveBar('/msg_portal/Features') ? 'hrX' : ''} /></Link></li>
+          <li className='atags'> <Link to='/Pricing'> Pricing   <hr style={{ color: '#72cef3', marginTop: '2px' }} className={!isActiveBar('/msg_portal/Pricing') ? 'hrX' : ''} /></Link></li>
+          <li className='atags'> <Link to='/F_Q'> FAQs   <hr style={{ color: '#72cef3', marginTop: '2px' }} className={!isActiveBar('/msg_portal/F&Q') ? 'hrX' : ''} /></Link></li>
         </ul>
         {!email ? (
           <div class="dashShow" style={{ display: 'flex', justifyContent: 'center' }} >

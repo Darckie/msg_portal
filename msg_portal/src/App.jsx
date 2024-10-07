@@ -76,23 +76,23 @@ function App() {
   return (
     <div className="grid-container">
 
-      {(window.location.pathname !== "/webui" && window.location.pathname !== "/" && window.location.pathname !== "/webui/" && window.location.pathname !== "/webui/Login" && window.location.pathname !== "/webui/SignUp" && window.location.pathname !== "/webui/PageNotFound" && window.location.pathname !== "/webui/Agentlogin" && window.location.pathname !== "/webui/AgentHome"
-        && window.location.pathname !== "/webui/AgentSend" && window.location.pathname !== "/webui/AgentChat" && window.location.pathname !== "/webui/Pricing" && window.location.pathname !== "/webui/Features" && window.location.pathname !== "/webui/F_Q"
+      {(window.location.pathname !== "/msg_portal" && window.location.pathname !== "/" && window.location.pathname !== "/msg_portal/" && window.location.pathname !== "/msg_portal/Login" && window.location.pathname !== "/msg_portal/SignUp" && window.location.pathname !== "/msg_portal/PageNotFound" && window.location.pathname !== "/msg_portal/Agentlogin" && window.location.pathname !== "/msg_portal/AgentHome"
+        && window.location.pathname !== "/msg_portal/AgentSend" && window.location.pathname !== "/msg_portal/AgentChat" && window.location.pathname !== "/msg_portal/Pricing" && window.location.pathname !== "/msg_portal/Features" && window.location.pathname !== "/msg_portal/F_Q"
       ) && (
           <Header handleStartPage={handleStartPage} />
         )}
-      {(window.location.pathname !== "/webui" && window.location.pathname !== "/webui/" && window.location.pathname !== "/webui/Login" && window.location.pathname !== "/webui/SignUp"
+      {(window.location.pathname !== "/msg_portal" && window.location.pathname !== "/msg_portal/" && window.location.pathname !== "/msg_portal/Login" && window.location.pathname !== "/msg_portal/SignUp"
         && window.location.pathname !== "/Chat" && window.location.pathname !== "/"
         && window.location.pathname !== "/Autoresponder" && window.location.pathname !== "/Profile"
-        && window.location.pathname !== "/webui/PageNotFound" && window.location.pathname !== "/Agentlogin" && window.location.pathname !== "/AgentHome"
-        && window.location.pathname !== "/AgentSend" && window.location.pathname !== "/AgentChat" && window.location.pathname !== "/webui/Pricing" && window.location.pathname !== "/webui/F_Q"
-        && window.location.pathname !== "/webui/Features") && (
+        && window.location.pathname !== "/msg_portal/PageNotFound" && window.location.pathname !== "/Agentlogin" && window.location.pathname !== "/AgentHome"
+        && window.location.pathname !== "/AgentSend" && window.location.pathname !== "/AgentChat" && window.location.pathname !== "/msg_portal/Pricing" && window.location.pathname !== "/msg_portal/F_Q"
+        && window.location.pathname !== "/msg_portal/Features") && (
 
           <Sidebar />
         )}
       <main className="main">
         <Routes>
-          {/* <Route path="/webui" element={<Home />} />
+          {/* <Route path="/msg_portal" element={<Home />} />
           <Route path="/Whatsapp" element={<Whatsapp />} />
           <Route path="/Profile" element={<Profile />} />
           <Route path="/Autoresponder" element={<AutoResponder />} />

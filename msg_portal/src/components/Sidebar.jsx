@@ -58,18 +58,18 @@ function Sidebar({ isExpanded }) {
           </Link>
         </li> */}
         <li>
-          <Link className={isActive("/webui/Whatsapp") ? "active" : ""} to="/Whatsapp">
+          <Link className={isActive("/msg_portal/Whatsapp") ? "active" : ""} to="/Whatsapp">
             <BsHouseFill
-              style={{ color: isActive("/webui/Whatsapp") ? "rgb(0 185 69)" : "rgb(34 161 215 / 91%)" }}
+              style={{ color: isActive("/msg_portal/Whatsapp") ? "rgb(0 185 69)" : "rgb(34 161 215 / 91%)" }}
               className="icon"
             />
             <span className="sidebarText" style={{ display: XState ? 'flex' : 'none' }}>Dashboard</span>
           </Link>
         </li>
         <li>
-          <Link className={isActive("/webui/SignIn") ? "active" : ""} to="/SignIn">
+          <Link className={isActive("/msg_portal/SignIn") ? "active" : ""} to="/SignIn">
             <BsPersonFillGear
-              style={{ color: isActive("/webui/SignIn") ? "rgb(9 187 75)" : "rgb(34 161 215 / 91%)" }}
+              style={{ color: isActive("/msg_portal/SignIn") ? "rgb(9 187 75)" : "rgb(34 161 215 / 91%)" }}
               className="icon"
             />
             <span className="sidebarText" style={{ display: XState ? 'flex' : 'none' }}>Account manager</span>
@@ -88,18 +88,18 @@ function Sidebar({ isExpanded }) {
         </li> */}
 
         <li>
-          <Link className={isActive("/webui/Api") ? "active" : ""} to="/Api">
+          <Link className={isActive("/msg_portal/Api") ? "active" : ""} to="/Api">
             <BsCloudHaze2Fill
-              style={{ color: isActive("/webui/Api") ? "rgb(9 187 75)" : "rgb(34 161 215 / 91%)" }}
+              style={{ color: isActive("/msg_portal/Api") ? "rgb(9 187 75)" : "rgb(34 161 215 / 91%)" }}
               className="icon"
             />
             <span className="sidebarText" style={{ display: XState ? 'flex' : 'none' }}>Api</span>
           </Link>
         </li>
         <li>
-          <Link className={isActive("/webui/Reports") ? "active" : ""} to="/Reports">
+          <Link className={isActive("/msg_portal/Reports") ? "active" : ""} to="/Reports">
             <BsFileEarmarkZipFill
-              style={{ color: isActive("/webui/Reports") ? "rgb(0 185 69)" : "rgb(34 161 215 / 91%)" }}
+              style={{ color: isActive("/msg_portal/Reports") ? "rgb(0 185 69)" : "rgb(34 161 215 / 91%)" }}
               className="icon"
             />
             <span className="sidebarText" style={{ display: XState ? 'flex' : 'none' }}>Reports</span>
@@ -115,18 +115,18 @@ function Sidebar({ isExpanded }) {
           </Link>
         </li>*/}
         <li>
-          <Link className={isActive("/webui/Send") ? "active" : ""} to="/Send">
+          <Link className={isActive("/msg_portal/Send") ? "active" : ""} to="/Send">
             <BsSendFill
-              style={{ color: isActive("/webui/Send") ? "rgb(0 185 69)" : "rgb(34 161 215 / 91%)" }}
+              style={{ color: isActive("/msg_portal/Send") ? "rgb(0 185 69)" : "rgb(34 161 215 / 91%)" }}
               className="icon"
             />
             <span className="sidebarText" style={{ display: XState ? 'flex' : 'none' }}>Test Send </span>
           </Link>
         </li>
         <li>
-          <Link className={isActive("/webui/Bulk") ? "active" : ""} to="/Bulk">
+          <Link className={isActive("/msg_portal/Bulk") ? "active" : ""} to="/Bulk">
             <BsChatQuoteFill
-              style={{ color: isActive("/webui/Bulk") ? "rgb(0 185 69)" : "rgb(34 161 215 / 91%)" }}
+              style={{ color: isActive("/msg_portal/Bulk") ? "rgb(0 185 69)" : "rgb(34 161 215 / 91%)" }}
               className="icon"
             />
             <span className="sidebarText" style={{ display: XState ? 'flex' : 'none' }}>Bulk messaging</span>

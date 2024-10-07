@@ -237,7 +237,7 @@ export default function SignIn() {
     var flag = '';
 
     const reloadPage = async () => {
-        window.location.href = '/webui/SignIn';
+        window.location.href = '/msg_portal/SignIn';
     }
 
 
