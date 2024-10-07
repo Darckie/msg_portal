@@ -1,5 +1,5 @@
 # Msg Portal
-
+https://Darckie.github.io/msg_portal
 ## Description
 Msg Portal is a web application designed to automate the process of sending messages through the WhatsApp Business app. Built using React, this project features a user-friendly interface for managing users, generating reports, and sending SMS messages in bulk. While this repository contains only the static files for the front end, the complete system includes a Node.js server with Puppeteer for automation, along with a backend developed in Java and MySQL for data management.
 
