@@ -15,7 +15,7 @@ To get started with the Msg Portal, follow these steps:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/YourUsername/msg_portal.git
+   git clone https://github.com/Darckie/msg_portal.git
 2. **Navigate to the Project Directory**
    ```bash
     cd msg_portal
